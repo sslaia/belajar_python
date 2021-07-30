@@ -4,9 +4,9 @@ Ya'ahowu. Dalam folder ini berada semua berkas yang kita gunakan selama belajar 
 
 ### Teks panduan/pengantar
 
-- [Pertemuan 1, 15 Juli 2021](./pertemuan_1.md)
-- [Pertemuan 2, 22 Juli 2021](./pertemuan_2.md)
-- [Pertemuan 3, 29 Juli 2021](./pertemuan_3.md)
+- [Pertemuan 1, 16 Juli 2021](./pertemuan_1.md)
+- [Pertemuan 2, 24 Juli 2021](./pertemuan_2.md)
+- [Pertemuan 3, 30 Juli 2021](./pertemuan_3.md)
 
 
 ### Berkas latihan
