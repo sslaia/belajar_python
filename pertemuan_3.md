@@ -61,7 +61,7 @@ Contoh
 if gae_sasoso < 100:
    print("Oi ataha na sa. Baloi mato ha'uga bongi awena ta'ohe ba fasa")
 elif gae_sobou > 100:
-   print("Talafo oya zobou. Migu fönada manö tafamawa ia.")
+   print("Talafo oya zobou. Lö mamawa gae ita migu andre.")
 else:
    print("Lau be yaŵa ba moto. Mofanö ita ba fasa.")
 ```
@@ -90,7 +90,7 @@ maka python akan menampilkan pesan bahwa umur-pengguna adalah tipe data int.
 
 Contoh
 
-`3_482`
+`3_482` atau `4_200_000`
 
 
 ## Menghitung panjang satu string: `len()`
