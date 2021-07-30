@@ -119,10 +119,10 @@ Bagaimana saya menampilkan huruf `u`?
 
 ## Merevisi latihan-latihan yang telah dibuat
 
-1. print_1.py
-2. print_2.py
-3. bmi.py
-4. bagi_rata.py
+1. [print_1.py](./latihan/print_1.py)
+2. [print_2.py](./latihan/print_2.py)
+3. [bmi.py](./latihan/bmi.py)
+4. [bagi_rata.py](./latihan/bagi_rata.py)
 
 
 ## Membuat perhitungan tahun, bulan, hari dan jam sisa hidup
