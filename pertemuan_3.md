@@ -47,7 +47,7 @@ Contoh
 
 ```
 if ono_niha != orang_nias:
-   print "Tenga ono niha sindruhu da'ö, he. Ha kece-kece."
+   print("Tenga ono niha sindruhu da'ö, he. Ha kece-kece.")
 ```
 
 
@@ -77,13 +77,13 @@ operasi lainnya:
 
 umur_pengguna = 37
 
-`(type(umur_pengguna))`
+`type(umur_pengguna)`
 
 Contoh
 
 `print(type(umur_pengguna))`
 
-maka python akan menampilkan pesan bahwa umur-pengguna adalah tipe data int.
+maka python akan menampilkan pesan bahwa umur-pengguna adalah tipe data `int`.
 
 
 ## Cara menulis pemisah ribuan: `_`
@@ -105,12 +105,12 @@ Latihan:
 
 `nama_kades = len(input("Hadia döi kepala desami? "))`
 
-print(nama_kades)
+`print(nama_kades)` akan menampilkan jumlah huruf dalam nama kades ybs dan bukan nama kadesnya sendiri.
 
 
 ## Mencari tahu posisi dari satu karakter di dalam sebuah string
 
-Contoh
+Menanyakan karakter tertentu dari sebuah string (str) digunakan tanda kurung siku (`[]`) dengan isi posisi karakter yang ingin kita cari. Misalnya menanyakan apa karakter pertama (posisi 0 dalam perhitungan komputer) dari string Ya'ahowu:
 
 `print("Ya'ahowu"[0])`
 
@@ -119,9 +119,10 @@ Bagaimana saya menampilkan huruf `u`?
 
 ## Merevisi latihan-latihan yang telah dibuat
 
-1. Lima petani
-2. bmi.py
-3. Empat sahabat
+1. print_1.py
+2. print_2.py
+3. bmi.py
+4. bagi_rata.py
 
 
 ## Membuat perhitungan tahun, bulan, hari dan jam sisa hidup
