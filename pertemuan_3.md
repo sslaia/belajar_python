@@ -17,7 +17,47 @@ Pertemuan 3, 30 Juli 2021
 
 ## Lanjutan tipe data python (_data type_)
 
-- boolean: True atau False
+boolean: `True` atau `False`
+
+Contoh
+
+```
+print(4 < 3)
+print(10 == 5)
+print(6 > 5)
+print(32 >= 32)
+```
+
+Cara mencek entah satu nilai `True` atau `False`
+
+`bool("")`
+
+Contoh
+
+`print(bool("")`
+
+Apa hasilnya? Coba pikir mengapa kira-kira hasilnya demikian?
+
+
+## Lanjutan operasi logis (_logical operator_) yang berhubungan dengan nilai boolean
+
+Kali lalu kita telah mengetahui `==, <, <=, >, >=` Hari ini kita tambah satu lagi dan sangat sering digunakan, yakni `!=`
+
+Contoh
+
+```
+if ono_niha != orang_nias:
+   print "Tenga ono niha sindruhu da'ö, he. Ha kece-kece."
+```
+
+
+## Lanjutan pernyataan operasi logis (_logical operator conditional_)
+
+Kita telah menggunakan `if` beberapa kali. Nah, erat berhubungan dan biasanya selalu tampil bersama dengan `if` adalah `else` dan `elseif
+
+- `not` mis. `not` `ono_niha`, maka nilainya adalah `True` jika nilai `ono_niha` adalah `False` 
+- `or` mis. `ono_manu` `or` `ono_mbawi`, maka nilainya adalah `True` kalau nilai salah satu entah `ono_manu` atau `ono_mbawi` nilainya `True`
+- `and` mis. `ono_manu` `and` `ono_mbawi`, nilainya adalah `True` kalau keduanya `True`, kalau tidak salah satu nilainya beda maka hasilnya `False`
 
 
 ## Bagaimana mencek tipe data satu variable?

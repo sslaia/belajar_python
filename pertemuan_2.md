@@ -113,7 +113,7 @@ Keterangan sangat penting dalam satu aplikasi. Bukan hanya membuat orang lain da
 
 ## Siap mengkalkulasi indeks berat badan ideal?
 
-Menjalankan program [bmi.py](./latihan/bmi.py) di python command prompt dan dalam **Visual Studio Code**! Caranya? Di **Command Prompt** ketik perintah berikut di folder di mana berkas [bmi.py](./latihan/bmi.py) telah disimpan:
+Menjalankan program [bmi.py](./latihan/bmi.py) di python command prompt dan dalam **Visual Studio Code**! Caranya? Buka [bmi.py](./latihan/bmi.py), kopi isinya dan simpan dengan nama bmi.py di komputer Anda. Kemudian di **Command Prompt** ketik perintah berikut di folder di mana berkas bmi.py telah disimpan:
 
 `python bmi.py`
 
