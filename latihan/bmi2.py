@@ -18,13 +18,11 @@ print("Nilai indeks Anda: " + str(nilai))
 if bmi < 18.50:
     print("Nampaknya Anda agak kekurusan")
 
-if bmi > 25:
-    print("Nampaknya Anda agak kegemukan")
-
-if bmi > 18.50 and bmi < 25:
+elif bmi < 25:
     print("Selamat. Anda memiliki berat badan ideal!")
 
-
+else:
+    print("Nampaknya Anda agak kegemukan")
 
 
 
