@@ -53,7 +53,20 @@ if ono_niha != orang_nias:
 
 ## Lanjutan pernyataan operasi logis (_logical operator conditional_)
 
-Kita telah menggunakan `if` beberapa kali. Nah, erat berhubungan dan biasanya selalu tampil bersama dengan `if` adalah `else` dan `elseif
+Kita telah menggunakan `if` beberapa kali. Nah, erat berhubungan dan biasanya selalu tampil bersama dengan `if` adalah `else` dan `elif`
+
+Contoh
+
+```
+if gae_sasoso < 100:
+   print("Oi ataha na sa. Baloi mato ha'uga bongi awena ta'ohe ba fasa")
+elif gae_sobou > 100:
+   print("Talafo oya zobou. Migu fönada manö tafamawa ia.")
+else:
+   print("Lau be yaŵa ba moto. Mofanö ita ba fasa.")
+```
+
+operasi lainnya:
 
 - `not` mis. `not` `ono_niha`, maka nilainya adalah `True` jika nilai `ono_niha` adalah `False` 
 - `or` mis. `ono_manu` `or` `ono_mbawi`, maka nilainya adalah `True` kalau nilai salah satu entah `ono_manu` atau `ono_mbawi` nilainya `True`
@@ -71,11 +84,6 @@ Contoh
 `print(type(umur_pengguna))`
 
 maka python akan menampilkan pesan bahwa umur-pengguna adalah tipe data int.
-
-
-## Menampilkan nilai desimal
-
-Selain cara round(nama_variable, 2) ada cara yang lebih tepat untuk menampilkan angka desimal- 
 
 
 ## Cara menulis pemisah ribuan: `_`
@@ -117,5 +125,7 @@ Bagaimana saya menampilkan huruf `u`?
 
 
 ## Membuat perhitungan tahun, bulan, hari dan jam sisa hidup
+
+Bila ada waktu, kita akan membuat perhitungan ini.
 
 
