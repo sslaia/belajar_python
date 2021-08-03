@@ -34,7 +34,7 @@ Cara mencek entah satu nilai `True` atau `False`
 
 Contoh
 
-`print(bool("")`
+`print(bool(""))`
 
 Apa hasilnya? Coba pikir mengapa kira-kira hasilnya demikian?
 
