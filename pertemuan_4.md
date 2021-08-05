@@ -55,21 +55,25 @@ telah_makan_es_krim_minggu_ini = input("Apakah kamu telah makan es krim minggu i
 
 if telah_makan_es_krim_minggu_ini == "y":
 
-    # kendati Budi telah makan es krim (jawaban y), ada kondisi lain yang memungkinkan dia bisa makan es krim
+    # kendati Budi telah makan es krim (jawaban y), 
+    # ada kondisi lain yang memungkinkan dia bisa makan es krim
     # karena itu kini menyusul persyaratan bawahan
-    # dan mulai dengan menanyakan Budi apakah hari ini ada tamu dan apakah tamu tsb. mendapat es krim
+    # dan mulai dengan menanyakan Budi
+    # apakah hari ini ada tamu dan apakah tamu tsb. mendapat es krim
 
     tamu_dapat_es_krim = input("Apakah saat ini tamu ditawari es krim? Tulis Y atau T: ")
 
     if tamu_dapat_es_krim == "y":
         print("Selamat, Budi. Hari ini kamu boleh makan es krim!")
 
-    # kalau tamu tidak mendapat es krim (jawaban **t**), maka Budi mendapat pesan bahwa dia tidak boleh makan es krim
+    # kalau tamu tidak mendapat es krim (jawaban **t**), 
+    # maka Budi mendapat pesan bahwa dia tidak boleh makan es krim
 
     else:
         print("Maaf, Budi. Jatahmu untuk minggu ini telah terpenuhi. tunggu sampai minggu depan yah!")
 
-# kalau jawaban adalah **t** (tidak), maka Budi mendapat pesan bahwa dia boleh makan es krim
+# kalau jawaban adalah **t** (tidak),
+# maka Budi mendapat pesan bahwa dia boleh makan es krim
 
 else:
     print("Selamat, Budi. Hari ini kamu boleh makan es krim!")
@@ -87,10 +91,10 @@ Selain int/float dan str ada juga tipe data python bernama list. Ngomong-ngomong
 Contoh:
 
 ```
-burung_khas_nias = ["beo", "sökha", "manu ndru'u"]
+hewan_khas_nias = ["beo", "sökha", "manu ndru'u"]
 ```
 
-Dan seperti kita pelajari minggu lalu, kita bisa menampilkan setiap huruf dalam satu string dengan mengakses langsung posisinya dalam string tsb. mis. `"Ya'ahowu"[2]`, demikian juga kita bisa mengakses setiap item dalam *list* dengan menggunakan pola yang sama. Misalnya dalam contoh di atas `print(burung_khas_nias[2])` akan menampilkan item di posisi ke-3!
+Dan seperti kita pelajari minggu lalu, kita bisa menampilkan setiap huruf dalam satu string dengan mengakses langsung posisinya dalam string tsb. mis. `"Ya'ahowu"[2]`, demikian juga kita bisa mengakses setiap item dalam *list* dengan menggunakan pola yang sama. Misalnya dalam contoh di atas `print(hewan_khas_nias[2])` akan menampilkan item di posisi ke-3!
 
 Operasi sperti ini sangatlah berguna. Misalkan kita mau men-*scan* daftar isi satu buku, maka kita bisa menulis kode python: 
 
