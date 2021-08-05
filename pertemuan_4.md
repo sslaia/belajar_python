@@ -3,6 +3,81 @@
 Pertemuan 4, 6 Agustus 2021
 
 
+## Memperbaiki kode bmi.py menggunakan elif dan else
+
+Minggu lalu kita belajar perintah persyaratan (*conditional*) tambahan terhadap **if** yakni **elif**. Hari ini kita memperbaiki kode [bmi.py](./latihan/bmi.py) yang kita buat kali lalu dengan menggunakan pengetahuan kita yang baru. Kali lalu kita membuatnya dengan pengetahuan yang terbatas, karena itu kode tsb. tidaklah elegan.
+
+Bukalah kode [bmi.py](./latihan/bmi.py) dan mari mengatamatinya bersama-sama. Perhatikan blok kode yang ada persyaratan **if**.
+
+Apakah yang terjadi di situ? Ternyata kita membuat 3 kali persyaratan **if**. Ini tentu saja *tidak salah*, tetapi juga *tidak efisien*. Itu berarti bahwa python/komputer yang akan menjalankan semua baris-baris kode tsb. satu per satu.
+
+Kode tsb. bisa kita buat lebih efisien dengan menjadi segala operasi persyaratan ini menjadi satu blok kode. Artinya python/komputer tak perlu menjalankan semua persyaratan itu, melainkan berjalan mulai dari atas dan secepat syarat terpenuhi dia berhenti dan melompat keluar dari blok kode. 
+
+Marilah mengubah kode tsb. dengan menjadikan keseluruhan blok tsb. satu persyaratan **if**, sedangkan yang lain hanyalah merupakan bagian dari **if** tsb. dengan menggunakan **elif** dan **else**
+
+Selamat! Anda telah menjadi *advanced coder*!
+
+
+## *Nested if*
+
+Dalam hidup nyata, sering terjadi bahwa satu syarat diikuti oleh syarat bawahan. Perhatikan misalnya dialog berikut.
+
+Budi merengek-rengek kepada Bu Tuti, mamanya, ingin makan es krim. Mamanya mengatakan, "Budi, terlalu sering makan es krim tidak sehat, karena terlalu banyak gula di dalamnya. Karena itu, kamu boleh makan es krim sekali seminggu, kecuali kalau ada tamu di rumah dan tamu disuguhi es krim."
+
+Nah sekarang Bu Tuti datang kepada Anda untuk membantu dia membuat satu aplikasi yang menolong mencek entah Budi boleh makan es krim atau tidak. Cobalah sekarang menerjemahkan dialog tsb. ke dalam satu blok kode python. Bagaimana caranya?
+
+Tentu saja pertama kita perlu mencek entah Budi telah makan es krim minggu ini (jawaban **Y**) atau belum (**T**). Kalau belum (**T**), maka komputer langsung melompat ke pernyataan else yang sejajar if tsb, artinya memberitahu Budi bahwa dia *boleh* makan es hari ini.
+
+Namun kita tahu, walaupun dia telah makan es krim minggu ini, kalau ada tamu di rumah dan ditawari es krim, maka Budi boleh juga makan es krim. Kalau tidak, Budi tidak boleh makan es krim hari ini. Inilah yang disebut **nested if** artinya ada pernyataan kondisional bawahannya.
+
+Untuk program ini kita membutuhkan dua variable yang nilainya harus diminta dari pengguna aplikasi, yakni `telah_makan_es_krim_minggu_ini` dan `tamu_dapat_es_krim`. Blok kodenya bisa seperti ini:
+
+```
+telah_makan_es_krim_minggu_ini = input("Apakah kamu telah makan es krim minggu ini? Tulis Y atau T: ")
+
+if telah_makan_es_krim_minggu_ini == "y":
+    tamu_dapat_es_krim = input("Apakah saat ini tamu ditawari es krim? Tulis Y atau T: ")
+    if tamu_dapat_es_krim == "y":
+        print("Selamat, Budi. Hari ini kamu boleh makan es krim!")
+    else:
+        print("Maaf, Budi. Jatahmu untuk minggu ini telah terpenuhi. tunggu sampai minggu depan yah!")
+else:
+    print("Selamat, Budi. Hari ini kamu boleh makan es krim!")
+```
+
+Pertanyaan:
+1. Coba pikir sekali lagi logika program tsb. Apakah ada cara lain mengungkapkan persyaratan ini? Apa akibatnya bila menggunakan alur alternatif logis?
+2. Contoh **nested if** dalam aplikasi es krim di atas hanya satu contoh. Adakah contoh lain yang Anda pikir menuntut adanya **nested if** ini?
+
+
+## Lanjutan tipe data python: *list*
+
+Saya baru menemukan satu website programming yang telah meringkas berbagai perintah python, yakni [w3schools.com](https://www.w3schools.com/python/python_lists.asp) Dan sesuai dengan prinsip kita, tak perlu menemukan kembali roda pedati. Kita gunakan ringkasan bebas ini.
+
+Contoh:
+
+```
+burung_khas_nias = ["beo", "sökha", "manu ndru'u"]
+```
+
+Dan seperti kita pelajari minggu lalu, kita bisa menampilkan setiap huruf satu string, mis. `"Ya'ahowu"[3]` dengan mengakses posisinya dalam string tsb. kita bisa juga mengakses setiap item dalam *list* dengan menggunakan pola yang sama. Misalnya dalam contoh di atas `print(burung_khas_nias[2])` akan menampilkan item di posisi ke-3!
+
+Hal ini sangat berguna. Misalnya kita mau men-*scan* daftar isi satu buku, maka kita bisa menulis kode python: 
+
+```
+daftar_isi = ["Pengantar", "Bab 1. Hewan piaraan utama di Pulau Nias", "Bab 2. Kedudukan babi dalam budaya Nias"]
+```
+
+Kemudian kalau kita ingin mengakses salah satu item dalam daftar isi tsb. dan menampilkannya di layar, maka kita tinggal menulis kode `print(daftar_isi[2])`
+
+Demikian juga kita bisa menerapkan `len()` yang kita pelajari minggu lalu. Jadi untuk mengetahui berapa banyak item dalam list `daftar_isi` kita tinggal mengapitnya dengan `len` menjadi `len(daftar_isi)`
+
+Pertanyaan:
+1. Apakah hal-hal lain yang Anda pikir menggunakan *list* seperti ini?
+2. Apakah item di dalam *list* tsb. hanya berupa *str (string)* atau bisa juga merupakan angka seperti *int (integer)* atau *float*?
+3. Coba terka entah item di dalam *list* tsb. bisa sama alias berulang? Bagaimana dengan daftar nilai dalam ijazah misalnya?
+
+
 ## Bersama mendesign aplikasi Hari Hidupku
 
 Minggu lalu, kita belum sempat membuat aplikasi kalender, yang menghitung tahun, bulan, hari sisa hidup kita.
