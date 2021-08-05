@@ -3,6 +3,21 @@
 Pertemuan 4, 6 Agustus 2021
 
 
+## Pengantar
+
+Minggu lalu kita tidak sempat membuat aplikasi kalender menghitung sisa hari-hari kita. Saya harap kita bisa melakukannya di akhir sesi hari ini.
+
+Namun supaya kita lebiih yakin diri dengan apa yang kita pelajari (kata orang Inggris *proficient*), dan itu hanya bisa tercapai melalui praktek menulis kode lagi dan lagi, maka kita berusaha menerapkan apa yang telah kita pelajari pada kode-kode yang telah kita tulis di masa lalu.
+
+Dengan demikian kita juga mengetahui bagaimana kita menyempurnakan kode kita berdasarkan level pengetahuan yang sedang kita jalani.
+
+Jadi kita akan menyempurnakan kode aplikasi menghitung indeks berat badan ideal (bmi.py) dan menerapkan persyaratan **elif**, yang baru kita pelajari minggu lalu, di dalamnya.
+
+Kita juga akan menambah satu kemungkinan baru yang dinamakan **nested if**, artinya persyaratan yang memiliki satu persyaratan bawah atau malah lebih dari satu.
+
+Setelah itu kita berkenalan dengan topik baru hari ini, yakni *list*. Itu adalah satu tipe data python yang isinya merupakan daftar dan bukan sekedar rangkaian huruf seperti string atau angka seperti integer/float.
+
+
 ## Memperbaiki kode bmi.py menggunakan elif dan else
 
 Minggu lalu kita belajar perintah persyaratan (*conditional*) tambahan terhadap **if** yakni **elif**. Hari ini kita memperbaiki kode [bmi.py](./latihan/bmi.py) yang kita buat kali lalu dengan menggunakan pengetahuan kita yang baru. Kali lalu kita membuatnya dengan pengetahuan yang terbatas, karena itu kode tsb. tidaklah elegan.
