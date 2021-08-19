@@ -16,6 +16,68 @@ Kemudian kita introduksi topik baru yang disebut pengulangan atau dalam bahasa I
 
 ## Manipulasi list: lanjutan
 
+**Menambah item dalam satu list: append**
+
+Kita bisa menambah item dalam satu list dengan format list.append(), mis. 
+```
+hewan_khas_nias = ["beo", "buru'u", "magiao"]
+hewan_khas_nias.append("gogowaya")
+print(hewan_khas_nias)
+```
+akan menghasilkan `["beo", "buru'u", "magiao", "gogowaya"]`
+
+**Menyisipkan item dalam satu list: insert**
+
+```
+hewan_khas_nias = ["beo", "buru'u", "magiao"]
+hewan_khas_nias.insert(1, "gogowaya")
+print(hewan_khas_nias)
+```
+akan menghasilkan `["beo", "gogowaya", "buru'u", "magiao"]`
+
+Perhatikan angka 1 dalam contoh di atas artinya item baru disisipkan di posisi 1, yakni di mana ada buru'u. Item buru'u sendiri digeser ke belakang.
+
+**Membuang item dari dalam satu list: remove dan pop**
+
+```
+hewan_khas_nias = ["beo", "gogowaya", "buru'u", "magiao"]
+hewan_khas_nias.remove("gogowaya")
+print(hewan_khas_nias)
+```
+akan menghasilkan `["beo", "buru'u", "magiao"]`
+
+```
+hewan_khas_nias = ["beo", "gogowaya", "buru'u", "magiao"]
+hewan_khas_nias.pop(1)
+print(hewan_khas_nias)
+```
+akan menghasilkan `["beo", "buru'u", "magiao"]`
+
+remove mengeluarkan item berdasarkan nama, sedangkan pop berdasarkan indeks (posisi dalam satu daftar).
+
+**Menghapus item dalam satu list: del**
+
+```
+hewan_khas_nias = ["beo", "gogowaya", "buru'u", "magiao"]
+del hewan_khas_nias[1]
+print(hewan_khas_nias)
+```
+akan menghasilkan `["beo", "buru'u", "magiao"]`
+
+**Menghapus beberapa item berdasarakan range dalam satu list**
+
+```
+hewan_khas_nias = ["beo", "gogowaya", "buru'u", "magiao"]
+del hewan_khas_nias[1:3]
+print(hewan_khas_nias)
+```
+akan menghasilkan `["beo", "magiao"]`
+
+Perhatikan bahwa indeks no 3 sendiri tidak dihapus!
+
+**Metode list lainnya**
+
+append(), clear(), copy(), count(), index(), insert(), pop(), remove(), reverse(), sort() 
 
 
 ## Mengenal operasi pengulangan *iteration/loop*
