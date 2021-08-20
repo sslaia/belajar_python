@@ -104,8 +104,8 @@ Untuk melihat hal ini dalam aksi, coba simpan kode tsb. dalam satu berkas python
 
 Pengulangan ini sama dengan yang sebelumnya di atas, hanya jumlah pengulangannya telah diketahui. Biasanya pengulangan **for** digunakan untuk jarak (*range*) antara dua angka atau antara dua item di dalam satu daftar. Contoh
 ```
-for x in range(0, 10):
-    print(x, ' ', end='')
+for i in range(0, 10):
+    print(i, ' ', end='')
 print("\nSelesai")
 ```
 
