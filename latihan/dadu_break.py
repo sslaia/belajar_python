@@ -5,19 +5,19 @@ import random
 MIN = 1
 MAX = 6
 
-fazaumba_zui = "y"
-nomoro_harizaki = 4
+lempar_dadu = "y"
+nomor_dadu = 4
 
-while fazaumba_zui == "y":
-    print("Mamazaumba dadu...")
-    print("Da'a nomoro harizakimö: ")
+while lempar_dadu == "y":
+    print("Sedang melempar dadu...")
+    print("Inilah nomor keberuntunganmu hari ini: ")
     dadu = random.randint(MIN, MAX)
     print(dadu)
-    if dadu == nomoro_harizaki:
+    if dadu == nomor_dadu:
        print()
-       print("Aha. No talo khöu nomoro 4. Harizakiu ma'ökhö!")
+       print("Selamat. Anda mendapat nomor keberuntungan 4!")
        break 
     print()
-    fazaumba_zui = input("Lö salania, lö na harizaki.\nOmasi'ö ufuli ufazaumba dadu? (y / l): ")
+    lempar_dadu = input("Anda belum beruntung. Mau mencoba sekali lagi? (y / t): ")
 print()
-print("Saohagölö! Ndrege föna zui!")
+print("Trims! Sampai lain kali!")

@@ -5,15 +5,15 @@ import random
 MIN = 1
 MAX = 6
 
-fazaumba_zui = "y"
+lempar_dadu = "y"
 
 while fazaumba_zui == "y":
-    print("Mamazaumba dadu...")
-    print("Da'a nomoro harizakimö: ")
+    print("Sedang melempar dadu...")
+    print("Inilah nomor keberuntunganmu hari ini: ")
     dadu = random.randint(MIN, MAX)
     print(dadu)
     print()
-    fazaumba_zui = input("Omasi'ö ötohugö? (y / l): ")
+    lempar_dadu = input("Mau lempar dadu lagi? (y / t): ")
 print()
-print("Ndrege da'ö ua he! Saohagölö manö.")
+print("Terima kasih. Sampai lain kali.")
 
