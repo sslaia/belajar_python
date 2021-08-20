@@ -20,58 +20,58 @@ Kemudian kita introduksi topik baru yang disebut pengulangan atau dalam bahasa I
 
 Kita bisa menambah item dalam satu list dengan format list.append(), mis. 
 ```
-hewan_khas_nias = ["beo", "buru'u", "magiao"]
-hewan_khas_nias.append("gogowaya")
+hewan_khas_nias = ["beo", "nagoyomanase", "towi-towi"]
+hewan_khas_nias.append("nazese")
 print(hewan_khas_nias)
 ```
-akan menghasilkan `["beo", "buru'u", "magiao", "gogowaya"]`
+akan menghasilkan `["beo", "nagoyomanase", "towi-towi", "nazese"]`
 
 **Menyisipkan item dalam satu list: insert**
 
 ```
-hewan_khas_nias = ["beo", "buru'u", "magiao"]
+hewan_khas_nias = ["beo", "nagoyomanase", "towi-towi"]
 hewan_khas_nias.insert(1, "gogowaya")
 print(hewan_khas_nias)
 ```
-akan menghasilkan `["beo", "gogowaya", "buru'u", "magiao"]`
+akan menghasilkan `["beo", "gogowaya", "nagoyomanase", "towi-towi"]`
 
 Perhatikan angka 1 dalam contoh di atas artinya item baru disisipkan di posisi 1, yakni di mana ada buru'u. Item buru'u sendiri digeser ke belakang.
 
 **Membuang item dari dalam satu list: remove dan pop**
 
 ```
-hewan_khas_nias = ["beo", "gogowaya", "buru'u", "magiao"]
+hewan_khas_nias = ["beo", "gogowaya", "nagoyomanase", "towi-towi"]
 hewan_khas_nias.remove("gogowaya")
 print(hewan_khas_nias)
 ```
-akan menghasilkan `["beo", "buru'u", "magiao"]`
+akan menghasilkan `["beo", "nagoyomanase", "towi-towi"]`
 
 ```
-hewan_khas_nias = ["beo", "gogowaya", "buru'u", "magiao"]
+hewan_khas_nias = ["beo", "gogowaya", "nagoyomanase", "towi-towi"]
 hewan_khas_nias.pop(1)
 print(hewan_khas_nias)
 ```
-akan menghasilkan `["beo", "buru'u", "magiao"]`
+akan menghasilkan `["beo", "nagoyomanase", "towi-towi"]`
 
 remove mengeluarkan item berdasarkan nama, sedangkan pop berdasarkan indeks (posisi dalam satu daftar).
 
 **Menghapus item dalam satu list: del**
 
 ```
-hewan_khas_nias = ["beo", "gogowaya", "buru'u", "magiao"]
+hewan_khas_nias = ["beo", "gogowaya", "nagoyomanase", "towi-towi"]
 del hewan_khas_nias[1]
 print(hewan_khas_nias)
 ```
-akan menghasilkan `["beo", "buru'u", "magiao"]`
+akan menghasilkan `["beo", "nagoyomanase", "towi-towi"]`
 
 **Menghapus beberapa item berdasarakan range dalam satu list**
 
 ```
-hewan_khas_nias = ["beo", "gogowaya", "buru'u", "magiao"]
+hewan_khas_nias = ["beo", "gogowaya", "nagoyomanase", "towi-towi"]
 del hewan_khas_nias[1:3]
 print(hewan_khas_nias)
 ```
-akan menghasilkan `["beo", "magiao"]`
+akan menghasilkan `["beo", "towi-towi"]`
 
 Perhatikan bahwa indeks no 3 sendiri tidak dihapus!
 
@@ -94,10 +94,10 @@ hitung = 1
 while hitung <= int(jumlah_telur):
     print(f"Masukkan telur no {hitung} ke dalam panci!")
     hitung += 1
-print("Ha da'ö fefu gadulo!")
+print("Semua telur telah masuk ke panci!")
 ```
 
-Untuk melihat hal ini dalam aksi, coba simpan kode tsb. dalam satu berkas puthon dan jalankan.
+Untuk melihat hal ini dalam aksi, coba simpan kode tsb. dalam satu berkas python dan jalankan.
 
 
 ### Pengulangan **for**
@@ -109,7 +109,7 @@ for x in range(0, 10):
 print("\nSelesai")
 ```
 
-Untuk melihat hal ini dalam aksi, coba simpan kode tsb. dalam satu berkas puthon dan jalankan.
+Untuk melihat hal ini dalam aksi, coba simpan kode tsb. dalam satu berkas python dan jalankan.
 
 Kalau diamati pengulangan **while** dan **for** sangat mirip. Tetapi ada perbedaan penting. Dalam pengulangan **for**:
 - tak perlu lagi menghitung jumlah pengulangan 
