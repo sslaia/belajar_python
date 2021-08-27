@@ -9,6 +9,7 @@ Ya'ahowu. Dalam folder ini berada semua berkas yang kita gunakan selama belajar 
 - [Pertemuan 3, 30 Juli 2021](./pertemuan_3.md)
 - [Pertemuan 4, 6 Augustus 2021](./pertemuan_4.md)
 - [Pertemuan 5, 20 Augustus 2021](./pertemuan_5.md)
+- [Pertemuan 6, 28 Augustus 2021](./pertemuan_6.md)
 
 
 ### Berkas latihan
