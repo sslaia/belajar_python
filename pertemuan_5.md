@@ -1,6 +1,6 @@
 # Belajar Bersama Python
 
-Pertemuan 4, 20 Agustus 2021
+Pertemuan 5, 20 Agustus 2021
 
 
 ## Pengantar
