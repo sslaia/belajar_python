@@ -168,7 +168,7 @@ Selesai.
 
 ### Refleksi
 
-Bagaimana seandainya komponen-komponen di atas (nama, umur, pendidikan) Anda ganti dengan menggunakan Facebook pengguna, menganalisa segala pos, bacaan, like, teman-teman dlsb.? Apakah Anda merasa hal ini fiksi atau nyata?
+Bagaimana seandainya komponen-komponen di atas (nama, umur, pendidikan) Anda ganti dengan berbagai data Facebook pengguna, menganalisa segala pos, bacaan, like, teman-teman dlsb.? Apakah Anda merasa hal ini fiksi atau nyata?
 
 
 ## Fungsi (_function_) di Python
