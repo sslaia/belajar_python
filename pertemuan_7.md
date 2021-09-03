@@ -165,6 +165,12 @@ else:
 
 Selesai.
 
+
+### Refleksi
+
+Bagaimana seandainya komponen-komponen di atas (nama, umur, pendidikan) Anda ganti dengan menggunakan Facebook pengguna, menganalisa segala pos, bacaan, like, teman-teman dlsb.? Apakah Anda merasa hal ini fiksi atau nyata?
+
+
 ## Fungsi (_function_) di Python
 
 Adalah praktek biasa memecah-mecah kode ke dalam bagian yang lebih kecil, yang berdiri sendiri. Selain membuat supaya kode lebih rapi, juga memungkinkan sehingga blok kode tertentu yang beberapa kali digunakan cukup sekali ditulis dan tak perlu ditulis ulang beberapa kali di mana blok tsb. dibutuhkan. Bagian ini disebut fungsi atau _function_ di Python.
