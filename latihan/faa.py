@@ -1,4 +1,5 @@
 # Menetapkan berbagai variable
+#
 nama_a = input("Tuliskan nama depan Anda (tanpa marga)\n")
 nama_b = input("Tuliskan nama depan pasangan Anda (tanpa marga)\n")
 umur_a = input("Tuliskan umur Anda (angka bulat tahun)\n")
@@ -6,14 +7,15 @@ umur_b = input("Tuliskan umur pasangan Anda (angka bulat tahun)\n")
 pendidikan_a = input("Pendidikan terakhir Anda (SD: 1; SMP: 2; SMA: 3; PT: 4)\n")
 pendidikan_b = input("Pendidikan terakhir pasangan Anda (SD: 1; SMP: 2; SMA: 3; PT: 4)\n")
 huruf_khusus = ["n", "s", "t"]
+
+# Menghitung poin nama
+#
+# Membuat variable poin_nama
 poin_nama_a = 0
 poin_nama_b = 0
 poin_nama = 0
-poin_umur = 0
-poin_pendidikan = 0
 
-
-# Menghitung poin dari perbedaan nama
+# Mengadakan perhitungan dengan menggunakan for loop
 for huruf in huruf_khusus:
     if huruf in nama_a:
         poin_nama_a = 1
@@ -51,6 +53,9 @@ print(f"Total poin perbadingan nama: {poin_nama}")
 
 
 # Menghitung poin perbedaan umur
+#
+# Membuat variable hasil perhitungan umur
+poin_umur = 0
 
 selisih_umur = int(umur_a) - int(umur_b)
 print(f"Selisih umur: {abs(selisih_umur)}")
@@ -66,14 +71,19 @@ else:
 print(f"Poin dari umur: {poin_umur}")
 
 # Menghitung poin pendidikan
+#
+# Membuat variable hasil perhitungan pendidikan
+poin_pendidikan = 0
 
+# Mengadakan kalkulasi
 if int(pendidikan_a) == int(pendidikan_b):
     poin_pendidikan = 3
-elif int(poin_nama_a) - int(pendidikan_b) == 1 or int(pendidikan_b) - int(pendidikan_a) == 1:
+elif int(pendidikan_a) - int(pendidikan_b) == 1 or int(pendidikan_b) - int(pendidikan_a) == 1:
     poin_pendidikan = 2
 else:
     poin_pendidikan = 1
 
+# Menampilkan poin pendidikan
 print(f"Poin dari pendidikan: {poin_pendidikan}")
 
 
