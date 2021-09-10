@@ -66,7 +66,7 @@ Seperti bisa dilihat, semua baris kodenya sama, kecuali baris pertama (`def meng
 
 Barangkali menarik diperhatikan bahwa kendati namanya fungsi, kata kunci yang dipakai adalah **def**. Anatominya adalah mulai dengan kata kunci **def** menyusul **nama_fungsi** dengan tanda kurung **()** untuk memasukkan argumen. Jadi dalam contoh di atas: `def menghitung_poin_umur(umur_a, umur_b):`
 
-Misalkan kita menulis kode program satu robot, yang bertugas menjemur pakaian setiap pagi. Satu fungsi yang selalu berulang dilakukan robot adalah mencek data terakhir cuaca di website Badan Meteorologi, Klimatologi dan Geofisika, sekali setiap 6 jam. Blok kode untuk itu bisa dibuat dalam satu fungsi mis. `cek_bmkg` dan pada saat dibutuhkan, robot tinggal memanggil fungsi tsb.
+Misalkan kita menulis kode program satu robot, yang bertugas menjemur pakaian setiap pagi. Satu fungsi yang selalu berulang dilakukan robot adalah mencek data terakhir cuaca di website **Badan Meteorologi, Klimatologi dan Geofisika**, sekali setiap 6 jam. Blok kode untuk itu bisa dibuat dalam satu fungsi mis. `cek_bmkg` dan pada saat dibutuhkan, robot tinggal memanggil fungsi tsb.
 
 Di pabrik terdapat banyak hal yang sama yang terus-menerus berulang dijalankan oleh mesin. Kode program mesin tsb. pasti banyak menggunakan fungsi. Kali lalu kita membuat aplikasi password. Keseluruhan aplikasi itu bisa menjadi satu fungsi, yang senantiasa dipanggil kalau ada orang yang mau membuka pintu.
 
@@ -177,7 +177,7 @@ Dari data API yang kita gunakan dalam aplikasi [Gogowaya](https://github.com/ssl
 
 ## Demo mengakses item dari internet dan menampilkannya
 
-Ciptakanlah berkas bernama amaedola.py dalam editor favorit Anda. Dan tulis kode berikut di dalamnya:
+Ciptakanlah berkas bernama **amaedola.py** dalam editor favorit Anda. Lalu tuliskan baris-baris kode berikut di dalamnya:
 ```
 import requests
 
@@ -194,7 +194,9 @@ while i < len(data_dari_internet):
 
 ```
 
-Silakan menikmati hasilnya. Bak magic, bukan? Kalau melihat kode yang telah saya persiapkan, silakan klik di [Amaedola dari Internet](./latihan/amaedola.py). Nampaknya sbb.:
+Silakan menikmati hasilnya. Bak _magic_, bukan? Ternyata jauh lebih simpel daripada yang kita bayangkan. Dengan cara ini kita bisa mengakses berbagai data yang tersedia melalui internet, seperti data terakhir covid-19, data kependudukan, ekonomi dlsb.
+
+Kalau mau melihat kode yang telah saya persiapkan, silakan klik di [Amaedola dari Internet](./latihan/amaedola.py). Nampaknya sbb.:
 
 ![Amaedola](./latihan/amaedola.png?raw=true)
 
