@@ -1,5 +1,5 @@
 # Fungsi poin_nama()
-def poin_nama(nama_a, nama_b):
+def menghitung_poin_nama(nama_a, nama_b):
     for huruf in huruf_khusus:
         if huruf in nama_a:
             poin_nama_a = 1
@@ -24,7 +24,7 @@ def poin_nama(nama_a, nama_b):
     return poin_nama
 
 # Fungsi poin_umur()
-def poin_umur(umur_a, umur_b):
+def menghitung_poin_umur(umur_a, umur_b):
     selisih_umur = int(umur_a) - int(umur_b)
     print(f"Selisih umur: {abs(selisih_umur)}")
     
@@ -41,10 +41,10 @@ def poin_umur(umur_a, umur_b):
     return poin_umur
 
 # Fungsi poin_pendidikan()
-def poin_pendidikan(pendidikan_a, pendidikan_b):
+def menghitung_poin_pendidikan(pendidikan_a, pendidikan_b):
     if int(pendidikan_a) == int(pendidikan_b):
         poin_pendidikan = 3
-    elif int(poin_nama_a) - int(pendidikan_b) == 1 or int(pendidikan_b) - int(pendidikan_a) == 1:
+    elif int(pendidikan_a) - int(pendidikan_b) == 1 or int(pendidikan_b) - int(pendidikan_a) == 1:
         poin_pendidikan = 2
     else:
         poin_pendidikan = 1
@@ -71,7 +71,7 @@ huruf_khusus = ["n", "s", "t"]
 
 # Menghitung total poin pasangan
 
-poin_total = poin_nama(nama_a, nama_b) + poin_umur(umur_a, umur_b) + poin_pendidikan(pendidikan_a, pendidikan_b)
+poin_total = menghitung_poin_nama(nama_a, nama_b) + menghitung_poin_umur(umur_a, umur_b) + menghitung_poin_pendidikan(pendidikan_a, pendidikan_b)
 print(f"Total poin pasangan: {poin_total}")
 
 # Menampilkan pesan prospek pasangan
