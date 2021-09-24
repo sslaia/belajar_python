@@ -25,7 +25,7 @@ Hal ini telah kita praktekkan minggu lalu pada contoh menghitung poin umur di ap
 
 Kita juga telah melihat bahwa ada dua jenis _function_, yakni fungsi yang tak mengirim balik nilai, dan fungsi yang mengirim-balik nilai. Di Python kita tahu satu fungsi mengirim-balik satu nilai bila ada kata kunci _return_ di dalamnya.
 
-Kata kunci yang sama juga digunakan di Dart/Flutter bila satu fungsi mengharapkan nilai balik, namun kalau tidak harus ditandai dengan kata kunci _void_.
+Kata kunci yang sama juga digunakan di Dart/Flutter bila satu fungsi mengharapkan nilai balik, namun kalau tidak mengharapkan nilai balik, kita harus menandai fungsi tsb. dengan kata kunci _void_.
 
 ## Function mempunyai dua jenis argumen
 
@@ -132,5 +132,5 @@ Menarik, bukan?
 
 ## Refleksi
 
-Bagaimana perasaan Anda sampai sekarang? Apakah Anda siap maju ke topik yang lebih advanced? Ataukah berbagai topik yang telah kita pelajari masih terasa abstrakt?
+Bagaimana perasaan Anda sampai sekarang? Apakah Anda siap maju ke topik yang lebih _advanced_? Ataukah berbagai topik yang telah kita pelajari masih terasa abstrakt?
 
