@@ -99,7 +99,7 @@ def salam(*args):
 Lalu kita memanggil fungsi ini dengan argumen sembarang mis.
 `salam("Anton", "Budi")` atau salam `salam("Anton", "Budi", "Tuti", "Kris", "Agung")`
 
-Bukan hanya itu, mirip dengan argumen bernama di atas, di sini juga argumen bernama yang kita tidak tahu sebelumnya berapa jumlahnya, jadi digunakan kata kunci kwargs yang didahului dengan tanda bintang, menjadi *kwargs. kw itu merupakan singkatan dari key word, sama dengan argumen bernama atau berkata kunci.
+Bukan hanya itu, mirip dengan argumen bernama di atas, di sini juga argumen bernama yang kita tidak tahu sebelumnya berapa jumlahnya, jadi digunakan kata kunci **kwargs** yang didahului dengan tanda bintang, menjadi *kwargs. **kw** itu merupakan singkatan dari _key word_, sama dengan argumen bernama atau berkata kunci.
 ```
 def salam(*kwargs):
     for kunci in kwargs.keys():
@@ -132,5 +132,5 @@ Menarik, bukan?
 
 ## Refleksi
 
-Bagaimana perasaan Anda sampai sekarang? Apakah Anda siap maju ke topik yang lebih _advanced_? Ataukah berbagai topik yang telah kita pelajari masih terasa abstrakt?
+Bagaimana perasaan Anda sampai sekarang? Apakah Anda siap maju ke topik yang lebih _advanced_? Ataukah berbagai topik yang telah kita pelajari masih terasa abstrak?
 
