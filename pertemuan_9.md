@@ -7,9 +7,9 @@ Pertemuan 9, 24 September 2021
 
 Minggu lalu kita telah berkenalan dengan apa yang dinamakan _function_ di Python, yakni sebuah mekanisme untuk membuat blok kode modular, artinya berupa blok-blok kecil, yang bisa digunakan berkali-kali dan di berbagai tempat, tanpa harus mengulangi menulis kode yang sama di semua tempat itu.
 
-Setelah itu kita berkenalan dengan satu jenis daftar yang dinamakan _dictionary_, yakni satu daftar, yang item-item di dalamnya terdiri dari key-value pairs atau pasangan kunci-dan-nilai. Kita juga telah melihat bahwa _dictionary_ kita temukan dalam format json yang disebut obyek. Dan kita telah mendemonstrasikan bagaimana mengakses data dari Internet yang didapatkan dalam format json tsb.
+Setelah itu kita berkenalan dengan satu jenis daftar yang dinamakan _dictionary_, yakni satu daftar, yang item-item di dalamnya terdiri dari _key-value pairs_ atau dalam bahasa Indonesia pasangan kunci-dan-nilai. Kita juga telah melihat bahwa apa yang dinamakan _dictionary_ di Python kita temukan juga dalam bentuk lain dalam format json, yang disebut obyek. Dan kita telah mendemonstrasikan bagaimana mengakses data dari Internet yang didapatkan dalam format json tsb. Python akan otomatis meng-konversi obyek json ke dalam kamus Python.
 
-Hari ini kita mendalami sedikit lebih jauh tentang function, yang telah kita mulai minggu lalu. Dan mudah-mudahan hal ini mempersiapkan kita memasuki topik baru nanti, yakni _class_, yang lebih kompleks dari _function_, tetapi juga jauh lebih menarik dari segi programming, walaupun untuk itu perlu juga keterangan teoretis yang kering.
+Hari ini kita mendalami sedikit lebih jauh tentang _function_, yang telah kita mulai minggu lalu. Dan mudah-mudahan hal ini mempersiapkan kita memasuki topik baru nanti, yakni _class_, yang lebih kompleks dari _function_, tetapi juga jauh lebih menarik dari segi programming, walaupun untuk itu perlu juga keterangan teoretis yang kering.
 
 Mari meneruskan eksplorasi kita tentang _function_ sambil juga mengulangi beberapa hal, sehingga kita lebih membatinkannya.
 
@@ -115,6 +115,8 @@ Kepada ibu: Ya'ahowu Tuti
 Kepada putra: Ya'ahowu Budi
 Kepada putri: Ya'ahowu Kris
 ```
+Menarik, bukan?
+
 
 ## Syarat-syarat menciptakan _function_ (rangkuman)
 
@@ -124,5 +126,7 @@ Kepada putri: Ya'ahowu Kris
 - Baris judul fungsi ditutup dengan tanda titik dua, dan baris sesudahnya disebut badan fungsi
 - Badan dari satu fungsi harus menjorok ke dalam sebanyak 4 spasi dari kiri
 
+## Refleksi
 
+Bagaimana perasaan Anda sampai sekarang? Apakah Anda siap maju ke topik yang lebih advanced? Ataukah berbagai topik yang telah kita pelajari masih terasa abstrakt?
 
