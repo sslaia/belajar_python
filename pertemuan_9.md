@@ -53,7 +53,7 @@ dan akan mencetak di layar
 Ya'ahowu, Nak. Saya sudah lama menantikan kamu pulang..
 ```
 
-Namun kalau diteliti lebih jauh, untuk bisa menjalankan fungsi ini, peng-input data harus tahu persis bahwa argumen pertama harus gelar dan argumen kedua harus salam. Jadi dia harus persis tahu posisi dari argumen tertentu di dalam fungsi. Dalam contoh ini, berarti pertama argumen gelar, lalu menyusul argumen salam. Karena itu argumen ini disebut _positional argument_, yakni argumen yang posisinya di dalam tanda kurung tsb. sangat menentukan.
+Namun kalau diteliti lebih jauh, untuk bisa menjalankan fungsi ini, peng-input data harus tahu persis bahwa argumen pertama harus merupakan gelar dan argumen kedua harus merupakan salam. Jadi dia harus persis tahu posisi dari argumen tertentu di dalam fungsi. Dalam contoh ini, berarti pertama argumen gelar, lalu menyusul argumen salam. Karena itu argumen ini disebut _positional argument_, yakni argumen yang posisinya di dalam tanda kurung tsb. sangat menentukan.
 
 Misalkanlah peng-input data agak mengantuk dan karena itu menulis fungsi ini sbb.
 ```
@@ -64,10 +64,10 @@ Maka kalau perintah ini dijalankan hasilnya menjadi
 Ya'ahowu, Lain kali saja datang lagi. Sibaya
 ```
 
-Nah untuk menghindari hal ini, apalagi kalau ke dalam fungsi itu kita menyertakan banyak argumen, maka ada jenis argumen yang kedua yang disebut argumen bernama atau _named argument_, yaitu satu argumen yang diberi nama, jadi seperti sebuah variable. Fungsi dengan argumen bernama mis. terlihat sbb.:
+Nah untuk menghindari hal ini, apalagi kalau ke dalam fungsi itu kita menyertakan banyak argumen, maka ada jenis argumen yang kedua yang disebut argumen bernama atau _named argument_, yaitu satu argumen yang diberi nama, jadi mirip-mirip sebuah variable. Fungsi dengan argumen bernama mis. terlihat sbb.:
 ```
 def bendera(negara = "Indonesia", warna = "merah putih"):
-    print("Warna bendera ", negara, " adalah ", warna)
+    print("Warna bendera", negara, "adalah", warna)
 ```
 Maka kendati peng-input data menulis demikian
 ```
@@ -77,7 +77,7 @@ Hasilnya akan tetap sama, menjadi
 ```
 Warna bendera Italia adalah hijau putih merah
 ```
-Cara penulisan fungsi seperti di atas juga disebut fungsi dengan nilai default, karena dalam fungsi sudah diberi nilai yang digunakan kalau tak ada nilai yang disertakan waktu fungsi dipanggil. Jadi kalau misalnya kita menjalankan fungsi ini sbb.:
+Cara penulisan fungsi seperti di atas juga disebut fungsi dengan nilai _default_, karena dalam fungsi sudah diberi nilai yang digunakan kalau tak ada nilai yang disertakan waktu fungsi dipanggil. Jadi kalau misalnya kita menjalankan fungsi ini sbb.:
 ```
 bendera(negara = "Singapura")
 ```
@@ -90,7 +90,7 @@ Warna bendera Singapura adalah merah putih
 
 ## Fungsi dengan argumen sembarang
 
-Ada skenario di mana kita tidak tahu berapa banyak argumen yang dibutuhkan. Nah, Python rupanya mengakomodasi kondisi semacam itu dengan menggunakan kata kunci args, yang didahului dengan tanda bintang (menjadi *args). Contoh
+Ada skenario di mana kita tidak tahu berapa banyak argumen yang dibutuhkan. Nah, Python rupanya mengakomodasi kondisi semacam itu dengan menggunakan kata kunci **args**, yang didahului dengan tanda bintang (menjadi *args). Contoh
 ```
 def salam(*args):
     for nama in args:
