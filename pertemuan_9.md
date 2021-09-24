@@ -106,15 +106,18 @@ def salam(*kwargs):
         print("Kepada", key, ": Ya'ahowu", kwargs[key])
 ```
 Lalu kita memanggil fungsi ini dengan argumen bernama sembarang mis.
-```salam(bapak = "Anton", ibu = "Tuti", putra = "Budi", putri = "Kris")`
+
+```salam(bapak = "Anton", ibu = "Tuti", putra = "Budi", putri = "Kris")
 ```
 yang akan mencetak demikian di layar
+
 ```
 Kepada bapak: Ya'ahowu Anton
 Kepada ibu: Ya'ahowu Tuti
 Kepada putra: Ya'ahowu Budi
 Kepada putri: Ya'ahowu Kris
 ```
+
 Menarik, bukan?
 
 
