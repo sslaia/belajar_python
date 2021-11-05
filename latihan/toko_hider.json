@@ -1,1 +1,1 @@
-[{"nama": "Gore gae", "harga": 1500}]
+{"anggota": [{"nama": "Sirus", "nomor": "123"}, {"nama": "Polly", "nomor": "456"}, {"nama": "Santo", "nomor": "789"}], "menu": [{"nama": "Gore Gae", "harga": 1000}, {"nama": "Gado-Gado", "harga": 1500}, {"nama": "Kopi Susu", "harga": 2000}, {"nama": "Teh Manis", "harga": 2500}], "transaksi": [{"kasir": "Sirus", "waktu": "2021-11-05 20:37:02", "item": "Gado-Gado", "jumlah": 4, "total": 0}, {"kasir": "Sirus", "waktu": "2021-11-05 20:37:02", "item": "Kopi Susu", "jumlah": 5, "total": 0}]}
